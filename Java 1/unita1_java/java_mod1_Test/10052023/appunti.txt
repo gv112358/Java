@@ -1,0 +1,19 @@
+Coda: 
+- push(coda, item) -> colloca l'item come ultimo elemento
+- pop(coda) -> restituisce il primo elemento della coda
+- empty(coda) -> True/False
+- empty(coda) = True -> pop(push(push(coda,i1),i2)) -> i1 
+
+ho un in e un out, la coda è vuota quando in == out. quindi
+il metodo empty() { retun in == out } come comparazione booleana
+
+Inserisco al posto in = 0 e poi in++, out = 0
+Inserisco al posto in = 1 e poi in++, out = 0
+Inserisco al posto in = 2 e poi in++, out = 0
+
+prendo dal posto out e poi out++
+
+alla fine della coda in = (in+1)%lenght out = 3 
+
+tra in e out ci sono elementi 
+

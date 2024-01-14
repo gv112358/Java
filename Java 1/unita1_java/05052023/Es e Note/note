@@ -1,0 +1,19 @@
+Ho il numero
+        double n = 123.9823981982391;
+
+        // Voglio stampare solo la parte intera
+        System.out.println((int) n);
+        System.out.println(Math.floor(n));
+
+        // voglio lasciare solo le prime due cifre decimali
+        // 123.98
+        // voglio assegnare a una nuova variabile
+        // solo 123.98 eliminando tutto il resto 23981982391
+
+        System.out.println(((int) (n * 100)) / 100.0);
+
+        int n1 = (int) (n * 100);
+        double n2 = n1 / 100.0;
+        System.out.println(n2);
+
+
