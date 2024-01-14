@@ -1,0 +1,6 @@
+L'iteratore scorre sugli indici della lista, non è il puntatore che fa
+invece parte dell'elemento della lista (per concatenarla)
+
+quando lo inizializzo punta all'elemento precendente al primo, 
+all'origine della lista
+

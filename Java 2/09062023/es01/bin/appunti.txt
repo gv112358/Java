@@ -1,0 +1,9 @@
+la classe più alta di tutte è la classe Object, che stampa con l'hash della
+classe concatenato con indirizzo di memoria
+
+per stampare ho bisogno di un metodo nella classe, se non c'è si va sulle classi superiori
+
+il metodo sort fa riferimento all'interfaccia comperable:
+
+class Automobile implements comperable<Automobile>
+compare è sempre integer 
